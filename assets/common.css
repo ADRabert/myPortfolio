@@ -49,6 +49,7 @@
 	width: auto;
 } main h2 {
 	color: #00bf00;
+	margin-top: 16px;
 	text-align: center;
 	text-decoration: underline;
 } main p {
