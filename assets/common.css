@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+} body {
+	background-attachment: fixed;
+	background-image: linear-gradient(#121314 50%, #125314 100%);
+	font-family: monospace;
+} body:hover {
+	cursor: default;
+} header {
+	background-color: #001f00;
+	border: 1px solid #00bf00;
+	border-radius: 16px;
+	float: left;
+	margin-left: 16px;
+	opacity: 25%;
+	overflow: hidden;
+	position: fixed;
+	transition: opacity 100ms;
+} header:hover {
+	opacity: 1;
+	transition: opacity 100ms;
+} header a {
+	color: #00bf00;
+	text-decoration: unset;
+} header p {
+	background-color: #00bf00;
+	color: #001f00;
+	display: inline-block;
+} header a, header p {
+	padding: 8px;
+} header a:hover {
+	background-color: #002f00;
+	text-decoration: underline;
+	transition: background-color 100ms, color 100ms;
+} header a:active {
+	background-color: #00bf00;
+	color: #001f00;
+} main h1 {
+	background-color: #001f00;
+	border: 1px solid #00bf00;
+	border-radius: 16px;
+	color: #00bf00;
+	justify-self: center;
+	margin: 16px 0;
+	padding: 8px 16px;
+	text-align: center;
+	width: auto;
+} main h2 {
+	color: #00bf00;
+	text-align: center;
+	text-decoration: underline;
+} main p {
+	color: #bfbfbf;
+	font-size: 16px;
+	margin: 0 16px;
+	text-indent: 32px;
+} footer {
+	bottom: 0px;
+	color: #bfbfbf;
+	font-size: 12px;
+	padding: 16px 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
