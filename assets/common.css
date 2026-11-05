@@ -48,20 +48,35 @@
 	text-align: center;
 	width: auto;
 } main h2 {
+	background-color: #001f007f;
 	color: #00bf00;
-	margin-top: 16px;
+	display: block;
+	justify-self: center;
+	margin: 16px 0 8px 0;
+	padding: 8px;
 	text-align: center;
 	text-decoration: underline;
-} main p {
+} main h3 {
+	background-color: #001f007f;
 	color: #bfbfbf;
 	font-size: 16px;
 	margin: 0 16px;
+	padding: 8px;
+	text-align: center;
+} main p {
+	background-color: #001f007f;
+	color: #bfbfbf;
+	font-size: 16px;
+	margin: 0 16px;
+	padding: 8px;
 	text-indent: 32px;
 } footer {
+	background-color: #001f007f;
 	bottom: 0px;
 	color: #bfbfbf;
 	font-size: 12px;
-	padding: 16px 0;
+	margin-top: 32px;
+	padding: 8px 0;
 	position: relative;
 	text-align: center;
 	width: 100%;
